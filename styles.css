@@ -610,6 +610,66 @@ a:hover {
     font-weight: 600;
 }
 
+/* ==================== ДИАГРАММЫ ==================== */
+.diagram-container {
+    margin: var(--spacing-2xl) 0;
+    padding: var(--spacing-xl);
+    background: var(--bg-primary);
+    border-radius: var(--border-radius-lg);
+    border: 2px solid var(--border-color);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.diagram-container:hover {
+    border-color: var(--accent-primary);
+    box-shadow: var(--shadow-md);
+}
+
+.diagram-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    margin: 0 auto var(--spacing-md);
+    display: block;
+}
+
+.diagram-placeholder {
+    padding: var(--spacing-2xl);
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+    border-radius: var(--border-radius-md);
+    border: 2px dashed var(--border-color);
+    text-align: center;
+}
+
+.diagram-placeholder i {
+    font-size: 3rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.diagram-caption {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.6;
+    margin: var(--spacing-md) 0 0 0;
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius-sm);
+}
+
+.diagram-caption::before {
+    content: "📊 ";
+    margin-right: var(--spacing-xs);
+}
+
 /* ==================== ИНФОРМАЦИОННЫЕ БЛОКИ ==================== */
 .highlight-box,
 .info-box,

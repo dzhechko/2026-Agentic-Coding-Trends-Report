@@ -112,12 +112,12 @@
                     <p class="hero-subtitle">Как агенты меняют разработку программного обеспечения</p>
                     <div class="hero-meta">
                         <div class="author-info">
-                            <i class="fas fa-user-circle"></i>
-                            <span>Материал подготовил <a href="https://t.me/llm_notes" target="_blank" rel="noopener">Дмитрий Жечков</a></span>
+                            <i class="fas fa-language"></i>
+                            <span>Перевод подготовил <a href="https://t.me/llm_notes" target="_blank" rel="noopener">Дмитрий Жечков</a></span>
                         </div>
                         <div class="reading-time">
-                            <i class="fas fa-clock"></i>
-                            <span>~15 мин чтения</span>
+                            <i class="fas fa-file-pdf"></i>
+                            <span><a href="https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en" target="_blank" rel="noopener" style="color: var(--accent-primary);">Оригинал Anthropic</a></span>
                         </div>
                     </div>
                     <div class="hero-actions">
@@ -125,9 +125,9 @@
                             <i class="fas fa-book-open"></i>
                             Начать чтение
                         </a>
-                        <a href="https://www.genspark.ai/api/files/s/ZWPDEo4A" target="_blank" class="btn btn-secondary">
-                            <i class="fas fa-download"></i>
-                            Скачать PDF
+                        <a href="https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i>
+                            Оригинальный PDF
                         </a>
                     </div>
                 </div>
@@ -138,6 +138,11 @@
                 <div class="section-header">
                     <h2>Вступление: От помощи к сотрудничеству</h2>
                 </div>
+                
+                <div class="info-box" style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%); border-left: 4px solid var(--accent-primary);">
+                    <p style="margin: 0;"><i class="fas fa-info-circle"></i> <strong>Примечание:</strong> Этот материал является переводом <a href="https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en" target="_blank" rel="noopener" style="color: var(--accent-primary); font-weight: 600;">оригинального отчета Anthropic</a>. Диаграммы и визуализации адаптированы из оригинального документа.</p>
+                </div>
+                
                 <div class="section-content">
                     <p class="lead">В 2025 году агенты для программирования превратились из экспериментальных инструментов в производственные системы, которые выпускают реальные функции для реальных клиентов.</p>
                     
@@ -190,6 +195,16 @@
                 
                 <div class="section-content">
                     <h4>Прогнозы</h4>
+                    
+                    <div class="diagram-container">
+                        <div class="diagram-placeholder">
+                            <i class="fas fa-sync-alt"></i>
+                            <p style="color: var(--text-primary); margin: 0; font-weight: 600; font-size: 1.1rem;">Эволюция жизненного цикла разработки ПО</p>
+                            <p style="color: var(--text-secondary); margin-top: var(--spacing-sm); font-size: 0.9375rem;">Традиционный SDLC → Агентный SDLC</p>
+                        </div>
+                        <p class="diagram-caption">Традиционные стадии SDLC остаются, но агентная реализация, автоматизированное тестирование и встроенная документация сокращают время цикла с недель до часов. Мониторинг напрямую подпитывает быстрые итерации.</p>
+                    </div>
+                    
                     <ul class="prediction-list">
                         <li>
                             <i class="fas fa-chart-line"></i>
@@ -261,6 +276,14 @@
                         </li>
                     </ul>
                     
+                    <div class="diagram-container">
+                        <div class="diagram-placeholder" style="padding: var(--spacing-2xl); background: var(--bg-secondary); border-radius: var(--border-radius-md);">
+                            <i class="fas fa-network-wired" style="font-size: 3rem; color: var(--accent-primary); margin-bottom: var(--spacing-md); display: block;"></i>
+                            <p style="color: var(--text-primary); margin: 0; font-weight: 600;">Диаграмма: Архитектура мульти-агентной системы</p>
+                        </div>
+                        <p class="diagram-caption">Одноагентные рабочие процессы обрабатывают задачи последовательно через одно контекстное окно. Мульти-агентные архитектуры используют оркестратор для координации специализированных агентов, работающих параллельно — каждый с выделенным контекстом — затем синтезируют результаты в интегрированный вывод.</p>
+                    </div>
+                    
                     <div class="case-study">
                         <div class="case-study-header">
                             <i class="fas fa-building"></i>
@@ -272,11 +295,6 @@
                             <i class="fas fa-check-circle"></i>
                             <strong>Результат:</strong> Один логистический клиент сократил время, необходимое для полного укомплектования персоналом нового центра выполнения, с одной или более недель до менее чем 72 часов.
                         </div>
-                    </div>
-                    
-                    <div class="diagram-note">
-                        <i class="fas fa-info-circle"></i>
-                        <p><strong>Архитектура:</strong> Одноагентные рабочие процессы обрабатывают задачи последовательно через одно контекстное окно. Мульти-агентные архитектуры используют оркестратор для координации специализированных агентов, работающих параллельно — каждый с выделенным контекстом — затем синтезируют результаты в интегрированный вывод.</p>
                     </div>
                 </div>
             </section>
@@ -655,15 +673,15 @@
                 <div class="footer-content">
                     <div class="footer-section">
                         <h4>О материале</h4>
-                        <p>Данный интерактивный отчет основан на исследовании Anthropic о трендах агентного программирования 2026 года.</p>
-                        <p>Подготовлено <a href="https://t.me/llm_notes" target="_blank" rel="noopener">Дмитрием Жечковым</a></p>
+                        <p>Данный интерактивный отчет — перевод на русский язык <a href="https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en" target="_blank" rel="noopener" style="color: var(--accent-primary); font-weight: 600;">оригинального исследования Anthropic</a> о трендах агентного программирования 2026 года.</p>
+                        <p>Перевод подготовил <a href="https://t.me/llm_notes" target="_blank" rel="noopener">Дмитрий Жечков</a></p>
                     </div>
                     
                     <div class="footer-section">
                         <h4>Ресурсы</h4>
                         <ul>
-                            <li><a href="https://www.genspark.ai/api/files/s/ZWPDEo4A" target="_blank" rel="noopener">
-                                <i class="fas fa-file-pdf"></i> Оригинальный PDF
+                            <li><a href="https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf?hsLang=en" target="_blank" rel="noopener">
+                                <i class="fas fa-file-pdf"></i> Оригинал от Anthropic (EN)
                             </a></li>
                             <li><a href="https://t.me/llm_notes" target="_blank" rel="noopener">
                                 <i class="fab fa-telegram"></i> Telegram канал
