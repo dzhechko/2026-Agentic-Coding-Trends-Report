@@ -796,17 +796,31 @@ a:hover {
     background: var(--bg-secondary);
     border-radius: var(--border-radius-md);
     display: flex;
+    flex-direction: column;
     gap: var(--spacing-sm);
-    align-items: flex-start;
+}
+
+.case-study-result-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
 }
 
 .case-study-result i {
     color: var(--success-color);
-    margin-top: 3px;
+    font-size: 1.125rem;
 }
 
 .case-study-result strong {
     color: var(--success-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.case-study-result-text {
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding-left: 0;
 }
 
 /* ==================== ПРИОРИТЕТЫ ==================== */
