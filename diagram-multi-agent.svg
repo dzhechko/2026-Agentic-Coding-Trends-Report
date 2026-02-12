@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
@@ -43,75 +43,75 @@
   </g>
   
   <!-- Large Arrow -->
-  <path d="M 380 200 L 420 200" stroke="url(#grad1)" stroke-width="6" marker-end="url(#arrowcolor)"/>
-  <text x="400" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#6366f1" font-weight="bold">VS</text>
+  <path d="M 380 200 L 440 200" stroke="url(#grad1)" stroke-width="6" marker-end="url(#arrowcolor)"/>
+  <text x="410" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#6366f1" font-weight="bold">VS</text>
   
   <!-- Multi-Agent Architecture -->
   <g id="multi-agent">
-    <text x="600" y="35" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Мульти-агентная архитектура</text>
+    <text x="700" y="35" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Мульти-агентная архитектура</text>
     
     <!-- Input -->
-    <rect x="450" y="60" width="100" height="50" rx="6" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
-    <text x="500" y="90" font-family="Arial" font-size="13" text-anchor="middle" fill="#1f2937">Запрос</text>
+    <rect x="500" y="60" width="100" height="50" rx="6" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+    <text x="550" y="90" font-family="Arial" font-size="13" text-anchor="middle" fill="#1f2937">Запрос</text>
     
     <!-- Arrow to Orchestrator -->
-    <path d="M 550 85 L 590 85" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowgray)"/>
+    <path d="M 600 85 L 640 85" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowgray)"/>
     
     <!-- Orchestrator -->
-    <rect x="590" y="50" width="140" height="70" rx="8" fill="url(#grad1)"/>
-    <text x="660" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Оркестратор</text>
-    <text x="660" y="100" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Координация</text>
+    <rect x="640" y="50" width="140" height="70" rx="8" fill="url(#grad1)"/>
+    <text x="710" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Оркестратор</text>
+    <text x="710" y="100" font-family="Arial" font-size="11" text-anchor="middle" fill="white">Координация</text>
     
     <!-- Parallel Processing -->
-    <rect x="440" y="150" width="440" height="130" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2" stroke-dasharray="5,5"/>
-    <text x="660" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="#166534" font-weight="bold">Параллельная обработка</text>
+    <rect x="490" y="150" width="430" height="130" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="705" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="#166534" font-weight="bold">Параллельная обработка</text>
     
     <!-- Agent 1 -->
     <g>
-      <rect x="460" y="190" width="120" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
-      <text x="520" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 1</text>
-      <text x="520" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
-      <text x="520" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Анализ</text>
+      <rect x="510" y="190" width="115" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="568" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 1</text>
+      <text x="568" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
+      <text x="568" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Анализ</text>
     </g>
     
     <!-- Agent 2 -->
     <g>
-      <rect x="600" y="190" width="120" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
-      <text x="660" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 2</text>
-      <text x="660" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
-      <text x="660" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Генерация</text>
+      <rect x="643" y="190" width="115" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="700" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 2</text>
+      <text x="700" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
+      <text x="700" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Генерация</text>
     </g>
     
     <!-- Agent 3 -->
     <g>
-      <rect x="740" y="190" width="120" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
-      <text x="800" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 3</text>
-      <text x="800" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
-      <text x="800" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Проверка</text>
+      <rect x="776" y="190" width="115" height="70" rx="6" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="833" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#5b21b6" font-weight="bold">Агент 3</text>
+      <text x="833" y="232" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Специализация:</text>
+      <text x="833" y="247" font-family="Arial" font-size="10" text-anchor="middle" fill="#7c3aed">Проверка</text>
     </g>
     
     <!-- Arrows back to Orchestrator -->
-    <path d="M 520 260 L 640 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
-    <path d="M 660 260 L 660 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
-    <path d="M 800 260 L 680 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <path d="M 568 260 L 690 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <path d="M 700 260 L 700 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <path d="M 833 260 L 720 290" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3"/>
     
     <!-- Synthesis -->
-    <rect x="590" y="290" width="140" height="40" rx="6" fill="#c7d2fe" stroke="#6366f1" stroke-width="2"/>
-    <text x="660" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#3730a3" font-weight="bold">Синтез результатов</text>
+    <rect x="640" y="290" width="140" height="40" rx="6" fill="#c7d2fe" stroke="#6366f1" stroke-width="2"/>
+    <text x="710" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#3730a3" font-weight="bold">Синтез результатов</text>
     
     <!-- Arrow to Output -->
-    <path d="M 660 330 L 660 360" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowgray)"/>
+    <path d="M 710 330 L 710 360" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowgray)"/>
     
     <!-- Output -->
-    <rect x="610" y="360" width="100" height="50" rx="6" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
-    <text x="660" y="390" font-family="Arial" font-size="13" text-anchor="middle" fill="#1f2937">Результат</text>
+    <rect x="660" y="360" width="100" height="50" rx="6" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+    <text x="710" y="390" font-family="Arial" font-size="13" text-anchor="middle" fill="#1f2937">Результат</text>
   </g>
   
   <!-- Bottom description -->
-  <rect x="50" y="430" width="750" height="60" rx="8" fill="#f3f4f6"/>
-  <text x="425" y="455" font-family="Arial" font-size="12" text-anchor="middle" fill="#374151">
-    <tspan x="425" dy="0">Мульти-агентные архитектуры используют оркестратор для координации специализированных агентов,</tspan>
-    <tspan x="425" dy="18">работающих параллельно — каждый с выделенным контекстом — затем синтезируют результаты.</tspan>
+  <rect x="50" y="430" width="900" height="60" rx="8" fill="#f3f4f6"/>
+  <text x="500" y="455" font-family="Arial" font-size="12" text-anchor="middle" fill="#374151">
+    <tspan x="500" dy="0">Мульти-агентные архитектуры используют оркестратор для координации специализированных агентов,</tspan>
+    <tspan x="500" dy="18">работающих параллельно — каждый с выделенным контекстом — затем синтезируют результаты.</tspan>
   </text>
   
   <!-- Markers -->
